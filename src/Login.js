@@ -24,11 +24,12 @@ const Login = () => {
     <div className='login'>
       <div className='login__container'>
         <img
-          src='https://i.pinimg.com/originals/91/9d/f0/919df067a8fbd22ce7b6f401b7688b35.png'
+          src='https://cdn0.iconfinder.com/data/icons/social-media-2127/48/social_media_social_media_logo_whatsapp-512.png'
           alt=''
         />
         <div className='login__text'>
-          <h1>Sign in to WhatsApp</h1>
+          <h1>Sign in to CatchUp</h1>
+          <p>Stay connected from anywhere!</p>
         </div>
         <Button onClick={signIn}>Sign in with Google</Button>
       </div>
